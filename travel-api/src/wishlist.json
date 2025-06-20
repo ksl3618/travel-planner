@@ -1,1 +1,1 @@
-["Paris", "Berlin"]
+[{"name": "Paris", "destinations": ["Eiffel Tower", "Louvre Museum"]}, {"name": "Hawaii", "destinations": ["Kailua", "Haleiwa", "Ewa"]}]
