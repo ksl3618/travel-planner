@@ -24,12 +24,14 @@ function Wishlist() {
 
   return (
     <div>
-      <input
-        value={destination}
-        onChange={e => setDestination(e.target.value)}
-        placeholder="Add destination"
-      />
-      <button onClick={addDestination}>Add</button>
+      <div className="input-row">
+        <input
+          value={destination}
+          onChange={e => setDestination(e.target.value)}
+          placeholder="Add destination"
+        />
+        <button onClick={addDestination}>Add</button>
+      </div>
       <ul>
         {wishlist.map((place, idx) => <li key={idx}>{place}</li>)}
       </ul>

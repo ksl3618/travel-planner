@@ -1,3 +1,22 @@
 input {
     height: 2em;
 }
+
+button {
+    background-color:#2e4853 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 2em;
+}
+
+button:hover {
+    background-color: #cfd8dc;
+}
+
+.input-row {
+  display: flex;
+  gap: 0.5em; /* Optional: space between input and button */
+  align-items: center; /* Vertically align input and button */
+}
